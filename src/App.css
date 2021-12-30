@@ -1,6 +1,37 @@
+body{
+  height: 70vh;
+  width: 70vw;
+  background-color: wheat;
+}
 .center_item{
   width: 300px;
   height: 300px;
   border-radius: 50%;
   background-color: green;
+  /* position: absolute; */
+  transition: 1s;
+  animation: moveAnime 10s linear infinite;
+  border: 5px solid black;
+}
+
+@keyframes moveAnime {
+  0%{
+    transform: translate(0,0);
+    background-color: green;
+  }
+  25%{
+    transform: translateX(60vw);
+    background-color: aqua;
+  }
+  50%{
+    transform: translate(60vw,60vh);
+    background-color: blueviolet;
+  }
+  75%{
+    transform: translate(0,60vh);
+    background-color: yellowgreen;
+  }
+  100%{
+    transform: translate(0,0);
+  }
 }
