@@ -8,7 +8,7 @@ function App() {
       
     <Header></Header>
     <Body name="Tour and Tourism"></Body>
-    <Body name="Tour and Tourism"></Body>
+    <Body></Body>
 
     </>
   );
