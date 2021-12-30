@@ -21,28 +21,15 @@ body ul {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   background-color: #222020;
-  height: 70px;
+  height: 4.5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 body ul li {
-  font-size: 24px;
+  font-size: 1rem;
   color: #e8e8f0;
   cursor: pointer;
-}
-
-body a {
-  font-size: 30px;
-  font-weight: 500;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-decoration: none;
-  color: black;
 }
 /*# sourceMappingURL=header.css.map */

@@ -1,7 +1,7 @@
 import React from 'react'
-import './header.css'
+import './css/header.css'
 
-export default function Header(props) {
+export default function Header() {
     return (
         <div>
             <ul>
@@ -11,8 +11,6 @@ export default function Header(props) {
                 <li>Contact Us</li>
                 <li>About Us</li>
             </ul>
-
-            <a href="#">{props.name}</a>
         </div>
     )
 }
