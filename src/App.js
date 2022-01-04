@@ -7,9 +7,10 @@ function App() {
     <>
       
     <Header></Header>
-    <Body name="Tour and Tourism"></Body>
-    <Body></Body>
-    <Textarea/>
+    {/* <Body name="Tour and Tourism"></Body> */}
+    {/* <Body></Body> */}
+
+    <Textarea text="Enter the Data :"></Textarea>
 
     </>
   );

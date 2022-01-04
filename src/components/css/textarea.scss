@@ -1,0 +1,31 @@
+body{
+    .textarea{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 2rem;
+        // background-color: whitesmoke;
+        label{
+            font-size: 2rem;
+            color: maroon;
+        }
+        textarea{
+            height: 15rem;
+            width: 30rem;
+            font-size: 2rem;
+        }
+        button{
+            width: 8rem;
+            height: 4rem;
+            // background-color: aqua;
+            cursor: pointer;
+            border-radius: 1rem;
+            font-size: 1.5rem;
+    
+            &:hover{
+                background-color: green;
+            }
+        }
+    }
+}
