@@ -1,9 +1,13 @@
+@mixin center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 body{
     .textarea{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
+      @include center();
+      justify-content: space-evenly;
         margin: 2rem;
         // background-color: whitesmoke;
         label{
@@ -27,5 +31,13 @@ body{
                 background-color: green;
             }
         }
+    }
+    .result{
+        @include center();
+        justify-content: center;
+        flex-direction: column;
+        font-size: 3rem;
+        line-height: 1.5;
+        word-spacing: .2rem;
     }
 }
