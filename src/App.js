@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header'
 import Body from './components/Body'
-
+import Textarea from './components/Textarea';
 function App() {
   return (
     <>
@@ -9,6 +9,7 @@ function App() {
     <Header></Header>
     <Body name="Tour and Tourism"></Body>
     <Body></Body>
+    <Textarea/>
 
     </>
   );

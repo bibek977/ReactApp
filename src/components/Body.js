@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 export default function Body(props) {
     return (
         <div>
-            <a href="#">{props.name}</a>            
+            <a href="./">{props.name}</a>            
         </div>
     )
 }
