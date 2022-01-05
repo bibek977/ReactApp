@@ -8,7 +8,7 @@ export default function About() {
     })
 
     const changeText = ()=>{
-        if(bgColor.backgroundColor == 'white'){
+        if(bgColor.backgroundColor ==='white'){
             setbgColor({
                 backgroundColor : 'black'
             })

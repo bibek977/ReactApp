@@ -26,4 +26,11 @@ body ul li {
   font-size: 1rem;
   cursor: pointer;
 }
+
+body ul li button {
+  width: 2.5rem;
+  height: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
 /*# sourceMappingURL=header.css.map */

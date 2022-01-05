@@ -1,41 +1,19 @@
-import React,{useState} from 'react'
+import React from 'react'
 import './css/header.css'
 
-export default function Header() {
+export default function Header(props) {
 
-    const [state, setstate] = useState('Night Mode')
-
-    const [darkBg,setDarkBg] = useState({
-        color: 'white',
-        backgroundColor : 'black'
-    })
-
-    const darkMode = () =>{
-        if(darkBg.backgroundColor==='black'){
-            setDarkBg({
-                color: 'black',
-                backgroundColor:'white'
-            })
-            setstate('Day Mode')
-        }
-        else{
-            setDarkBg({
-                color: 'white',
-                backgroundColor : 'black'
-            })
-            setstate('Night Mode')
-        }
-    }
+  
     return (
         
-        <div style={darkBg}> 
+        <div style={props.darkBg}> 
             <ul>
                 <li>Home</li>
                 <li>Features</li>
                 <li>Blog</li>
                 <li>Contact Us</li>
                 <li>About Us</li>
-                <li><button onClick={darkMode}>{state}</button></li>
+                <li><button onClick={props.darkMode}>{props.modeName}</button></li>
             </ul>
         </div>
     )
