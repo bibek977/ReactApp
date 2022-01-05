@@ -1,7 +1,9 @@
 import './App.css';
 import Header from './components/Header'
-import Body from './components/Body'
-import Textarea from './components/Textarea';
+// import Body from './components/Body'
+// import Textarea from './components/Textarea';
+// import About from './components/About'
+
 function App() {
   return (
     <>
@@ -10,7 +12,9 @@ function App() {
     {/* <Body name="Tour and Tourism"></Body> */}
     {/* <Body></Body> */}
 
-    <Textarea text="Enter the Data :"></Textarea>
+    {/* <Textarea text="Enter the Data :"></Textarea> */}
+
+    {/* <About></About> */}
 
     </>
   );

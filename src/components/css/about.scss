@@ -1,0 +1,8 @@
+@import 'center';
+
+.aboutBody{
+    @include center;
+    height: 80vh;
+    width: 100vw;
+    // background-color: rgb(101, 167, 167);
+}
