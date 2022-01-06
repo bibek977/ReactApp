@@ -13,6 +13,9 @@ export default function Textarea(props) {
         let changedText = initText.toLowerCase()
         finalText(changedText)
     }
+    const toClear = ()=>{
+        finalText("")
+    }
     const onChangeTextarea = (event)=>{
         // console.log("textarea is changed ")
         finalText(event.target.value)
@@ -24,6 +27,7 @@ export default function Textarea(props) {
             <textarea  id ='textTransform' value={initText} onChange={onChangeTextarea}></textarea>
             <button onClick={toUpper}>Uppercase</button>
             <button onClick={toLower}>Lowercase</button>
+            <button onClick={toClear}>ClearText</button>
         </div>
         <div className="result">
             <p>{initText.split(" ").length} words </p> <p> {initText.length} letters </p> <p> times to read : {0.008 * initText.split(" ").length} minutes</p>

@@ -5,7 +5,7 @@
           box-sizing: border-box;
 }
 
-body ul {
+ul {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,12 +22,12 @@ body ul {
           align-items: center;
 }
 
-body ul li {
+ul li {
   font-size: 1rem;
   cursor: pointer;
 }
 
-body ul li button {
+ul li button {
   width: 2.5rem;
   height: 2rem;
   border-radius: 1rem;

@@ -4,40 +4,38 @@
     align-items: center;
 }
 
-body{
-    .textarea{
-      @include center();
-      justify-content: space-evenly;
-        margin: 2rem;
-        // background-color: whitesmoke;
-        label{
-            font-size: 2rem;
-            color: maroon;
-        }
-        textarea{
-            height: 15rem;
-            width: 30rem;
-            font-size: 2rem;
-        }
-        button{
-            width: 8rem;
-            height: 4rem;
-            // background-color: aqua;
-            cursor: pointer;
-            border-radius: 1rem;
-            font-size: 1.5rem;
-    
-            &:hover{
-                background-color: green;
-            }
+.textarea{
+@include center();
+justify-content: space-evenly;
+    margin: 2rem;
+    // background-color: whitesmoke;
+    label{
+        font-size: 2rem;
+        color: maroon;
+    }
+    textarea{
+        height: 15rem;
+        width: 30rem;
+        font-size: 2rem;
+    }
+    button{
+        width: 8rem;
+        height: 4rem;
+        // background-color: aqua;
+        cursor: pointer;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+
+        &:hover{
+            background-color: green;
         }
     }
-    .result{
-        @include center();
-        justify-content: center;
-        flex-direction: column;
-        font-size: 3rem;
-        line-height: 1.5;
-        word-spacing: .2rem;
-    }
+}
+.result{
+    @include center();
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+    line-height: 1.5;
+    word-spacing: .2rem;
 }

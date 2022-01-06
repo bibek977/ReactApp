@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 
 export default function Body(props) {
     return (
-        <div>
+        <div className='body'>
             <a href="./">{props.name}</a>            
         </div>
     )

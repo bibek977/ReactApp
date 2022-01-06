@@ -1,4 +1,4 @@
-body .textarea {
+.textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,18 +15,18 @@ body .textarea {
   margin: 2rem;
 }
 
-body .textarea label {
+.textarea label {
   font-size: 2rem;
   color: maroon;
 }
 
-body .textarea textarea {
+.textarea textarea {
   height: 15rem;
   width: 30rem;
   font-size: 2rem;
 }
 
-body .textarea button {
+.textarea button {
   width: 8rem;
   height: 4rem;
   cursor: pointer;
@@ -34,11 +34,11 @@ body .textarea button {
   font-size: 1.5rem;
 }
 
-body .textarea button:hover {
+.textarea button:hover {
   background-color: green;
 }
 
-body .result {
+.result {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
